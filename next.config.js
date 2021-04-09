@@ -1,4 +1,5 @@
 module.exports = {
+  target: 'serverless',
   distDir: 'out',
   images: {
     loader: 'cloudinary',
