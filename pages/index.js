@@ -38,7 +38,11 @@ export default function Home() {
           <div className="w-4/5 h-1 border-b-2 border-gray-50 border-opacity-60 my-4" />
           <section className="relative w-full flex justify-around">
             <div className="w-1/3 h-auto relative">
-              <Image src="/rollwithme.png" width={1200} height={800} />
+              <Image
+                src="/v1617938020/rollwithme_yvv1g8.png"
+                width={800}
+                height={600}
+              />
               <a
                 className="text-xl text-black cursor-pointer underline mb-4"
                 href="https://rollwithme.xyz"
@@ -54,7 +58,11 @@ export default function Home() {
               </p>
             </div>
             <div className="w-1/3 h-auto relative">
-              <Image src="/UI_state_machines.png" width={1200} height={800} />
+              <Image
+                src="/v1617938014/UI_state_machines_gxjdr7.png"
+                width={800}
+                height={600}
+              />
               <a
                 className="text-xl text-black underline mb-4 scale-125 cursor-pointer"
                 href="https://docs.google.com/presentation/d/13fKUYN0dAufLSoW4bPazPfBM0WI1Nc-G7ulkrCcnVK0/edit?usp=sharing"
