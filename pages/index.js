@@ -1,3 +1,4 @@
+import * as React from 'react';
 import Head from 'next/head';
 import BannerBack from '../components/BannerBack';
 import BannerFront from '../components/BannerFront';
@@ -6,12 +7,34 @@ import Fox from '../components/Fox';
 import ImageCard from '../components/ImageCard';
 import {
   RiGithubFill,
+  RiLinkedinFill,
   RiTwitterFill,
   RiMailFill,
-  RiFileListFill,
 } from 'react-icons/ri';
+import gsap from 'gsap';
+import { ScrollTrigger } from 'gsap/dist/ScrollTrigger';
+gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
+  React.useEffect(() => {
+    gsap.set('#heart-bubble', {
+      scale: 0.25,
+      opacity: 0,
+      transformOrigin: 'bottom center',
+    });
+    gsap.to('#heart-bubble', {
+      opacity: 1,
+      scale: 1,
+      duration: 1,
+      scrollTrigger: {
+        trigger: '#heart-bubble',
+        start: 'top 60%',
+        end: 'top 550%',
+        scrub: 1,
+        once: true,
+      },
+    });
+  }, []);
   return (
     <div>
       <Head>
@@ -38,14 +61,27 @@ export default function Home() {
           <div className="w-full absolute">
             <BannerBack />
           </div>
-          <div className="w-full max-w-9xl mt-12 md:mt-32 z-10">
-            <BannerFront />
+          <div className="w-full pt-8 md:py-8 mx-4 sm:my-8 md:my-8 lg:my-12 xl:my-32 z-10 flex justify-center">
+            <div className="font-banner my-auto px-4 lg:px-8 py-3 lg:py-6 rounded-md bg-gray-50 shadow-lg flex items-center justify-between">
+              <div>
+                <h1 className="text-3xl md:text-7xl lg:text-9xl">Jon Grim</h1>
+                <p className="text-xl md:text-4xl lg:text-5xl py-2">
+                  Software Engineer
+                </p>
+                <p className="text-xl md:text-4xl lg:text-5xl text-blue-700 text-opacity-90">
+                  not really that grim
+                </p>
+              </div>
+              <div className="w-36 md:w-60 lg:w-96">
+                <BannerFront />
+              </div>
+            </div>
           </div>
         </div>
         <div className="w-full z-10">
           <Waves />
         </div>
-        <main className="w-full bg-dark-cyan flex flex-1 flex-col items-center z-10 font-body">
+        <main className="w-full bg-dark-cyan flex flex-1 flex-col items-center font-body">
           <section className="text-white text-xl max-w-3xl px-6">
             <div className="grid grid-cols-1 md:grid-cols-2">
               <div className="flex flex-col justify-center px-12 lg:px-2">
@@ -121,10 +157,10 @@ export default function Home() {
               <a
                 className="cursor-pointer"
                 target="_blank"
-                href="https://docs.google.com/document/d/1Daw-CFqJlKpetcxXza1RtIs1n-myQSET5E7tUEP0pM8/edit?usp=sharing"
-                aria-label="Jon Grim's Resume"
+                href="https://github.com/jongrim"
+                aria-label="Jon Grim's Github"
               >
-                <RiFileListFill size="2em" />
+                <RiGithubFill size="2em" />
               </a>
             </div>
             <div className="w-16 flex justify-center">
@@ -132,9 +168,9 @@ export default function Home() {
                 className="cursor-pointer"
                 target="_blank"
                 href="https://github.com/jongrim"
-                aria-label="Jon Grim's Github"
+                aria-label="Jon Grim's LinkedIn"
               >
-                <RiGithubFill size="2em" />
+                <RiLinkedinFill size="2em" />
               </a>
             </div>
             <div className="w-16 flex justify-center">

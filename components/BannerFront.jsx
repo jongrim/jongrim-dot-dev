@@ -3,7 +3,7 @@ import React from 'react';
 export default function BannerFront() {
   return (
     <svg
-      viewBox="0 0 1056 307"
+      viewBox="0 0 400 307"
       xmlns="http://www.w3.org/2000/svg"
       fillRule="evenodd"
       clipRule="evenodd"
@@ -435,7 +435,7 @@ export default function BannerFront() {
           fillRule="nonzero"
         />
       </g>
-      <g fontFamily="'Oswald',sans-serif" fontWeight="400" fontSize="204.444">
+      {/* <g fontFamily="'Oswald',sans-serif" fontWeight="400" fontSize="204.444">
         <text
           x="30.641"
           y="454.045"
@@ -450,7 +450,7 @@ export default function BannerFront() {
         >
           .dev
         </text>
-      </g>
+      </g> */}
       <defs>
         <image
           id="_Image3"
