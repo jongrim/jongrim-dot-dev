@@ -167,7 +167,7 @@ export default function Home() {
               <a
                 className="cursor-pointer"
                 target="_blank"
-                href="https://github.com/jongrim"
+                href="https://www.linkedin.com/in/jonathangrim/"
                 aria-label="Jon Grim's LinkedIn"
               >
                 <RiLinkedinFill size="2em" />
