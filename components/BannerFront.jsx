@@ -435,30 +435,20 @@ export default function BannerFront() {
           fillRule="nonzero"
         />
       </g>
-      <g
-        fontFamily="'Futura-Medium','Futura',sans-serif"
-        fontWeight="500"
-        fontSize="204.444"
-      >
+      <g fontFamily="'Oswald',sans-serif" fontWeight="400" fontSize="204.444">
         <text
           x="30.641"
           y="454.045"
           transform="matrix(.49815 0 0 .49815 591.955 -88.722)"
         >
-          jongr
-          <tspan x="518.492px 569.403px" y="454.045px 454.045px">
-            im
-          </tspan>
+          jongrim
         </text>
         <text
-          x="333.115"
+          x="294.115"
           y="664.578"
           transform="matrix(.49815 0 0 .49815 591.955 -88.722)"
         >
-          .de
-          <tspan x="628.4" y="664.578">
-            v
-          </tspan>
+          .dev
         </text>
       </g>
       <defs>

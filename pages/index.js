@@ -19,9 +19,18 @@ export default function Home() {
         <link rel="icon" href="/favicon.png" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&family=Oswald&display=swap"
           rel="stylesheet"
-        ></link>
+        />
+        <meta name="author" content="Jon Grim" />
+        <meta
+          name="description"
+          content="Personal site of Jon Grim – software engineer"
+        />
+        <meta
+          name="keywords"
+          content="Jon Grim, Jonathan Grim, software, engineer, profressional, roll with me"
+        />
       </Head>
 
       <div className="w-screen h-screen flex flex-col">

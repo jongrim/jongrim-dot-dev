@@ -14,6 +14,7 @@ module.exports = {
     },
     fontFamily: {
       body: ['Montserrat', 'sans-serif'],
+      banner: ['Oswald', 'sans-serif'],
     },
   },
   variants: {
