@@ -5,12 +5,15 @@ module.exports = {
     extend: {
       backgroundColor: (theme) => ({
         ...theme,
-        'sea-foam': '#58D7C9',
+        'dark-cyan': '#0F7282',
       }),
       textColor: (theme) => ({
         ...theme,
         'mb-pink': '#FF3EB5',
       }),
+    },
+    fontFamily: {
+      body: ['Montserrat', 'sans-serif'],
     },
   },
   variants: {
