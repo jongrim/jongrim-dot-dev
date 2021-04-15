@@ -80,12 +80,12 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-full z-10">
+        <div className="w-full z-10 relative -bottom-px">
           <Waves />
         </div>
         <main className="w-full bg-dark-cyan flex flex-1 flex-col items-center font-body">
           <section className="text-white text-xl max-w-3xl px-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 pt-48 pb-80">
+            <div className="grid grid-cols-1 md:grid-cols-2 pt-48 pb-60 md:pb-80">
               <div className="flex flex-col justify-center px-12 lg:px-2">
                 <p>
                   I am a <b className="text-3xl">builder</b> and a{' '}
@@ -105,11 +105,13 @@ export default function Home() {
             <ProjectsDivider />
           </div>
           <section className="w-full bg-mb-yellow">
-            <ProjectsBack />
-            <div className="h-48" />
+            <div className="sticky top-1/3 md:top-0 z-auto w-full safari-transform relative mt-48 md:mt-0">
+              <ProjectsBack />
+            </div>
+            <div className="h-auto md:h-48" />
             <div
               id="heart-hex"
-              className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 relative"
+              className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 z-10 safari-z-fix relative"
             >
               <VideoCard
                 src="https://res.cloudinary.com/duf9ddqhl/video/upload/v1618446089/hex_map_slzu7b.webm"
@@ -124,7 +126,7 @@ export default function Home() {
             </div>
             <div
               id="visual-dice"
-              className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 relative"
+              className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 z-10 safari-z-fix relative"
             >
               <ImageCard
                 src="/v1617997670/visual_dice_table_lyzpjz.png"
@@ -137,7 +139,7 @@ export default function Home() {
             </div>
             <div
               id="text-dice"
-              className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 relative"
+              className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 z-10 safari-z-fix relative"
             >
               <ImageCard
                 src="/v1617997670/text_dice_roller_rls764.png"
@@ -154,7 +156,7 @@ export default function Home() {
             </div>
             <div
               id="trophy-gold"
-              className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 relative"
+              className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 z-10 safari-z-fix relative"
             >
               <ImageCard
                 src="/v1617997670/trophy_gold_umllbh.png"
@@ -169,7 +171,7 @@ export default function Home() {
             </div>
             <div
               id="pure-ui"
-              className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 relative"
+              className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 z-10 safari-z-fix relative"
             >
               <ImageCard
                 src="/v1617938014/UI_state_machines_gxjdr7.png"
@@ -183,7 +185,7 @@ export default function Home() {
                 title="Pure UI via State Machines"
               />
             </div>
-            <div className="mx-auto my-32 relative flex flex-col items-center bg-mb-yellow py-8 px-12 pt-32">
+            <div className="mx-auto mt-32 mb-10 md:my-32 relative flex flex-col items-center bg-mb-yellow py-8 px-12 pt-32 safari-z-fix relative z-10">
               <p className="font-body text-xl">My tools of choice</p>
               <ul className="font-banner text-3xl">
                 <li className="py-3">React</li>
