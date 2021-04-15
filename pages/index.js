@@ -6,6 +6,7 @@ import Waves from '../components/Waves';
 import Fox from '../components/Fox';
 import ProjectsBack, { ProjectsDivider } from '../components/ProjectsBack';
 import ImageCard from '../components/ImageCard';
+import VideoCard from '../components/VideoCard';
 import {
   RiGithubFill,
   RiLinkedinFill,
@@ -88,7 +89,7 @@ export default function Home() {
               <div className="flex flex-col justify-center px-12 lg:px-2">
                 <p>
                   I am a <b className="text-3xl">builder</b> and a{' '}
-                  <b className="text-3xl">creator</b>
+                  <b className="text-3xl">maker</b>
                 </p>
                 <p className="mt-4">
                   I am fulfilled when working on ideas that create user success
@@ -107,6 +108,21 @@ export default function Home() {
             <ProjectsBack />
             <div className="h-48" />
             <div
+              id="heart-hex"
+              className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 relative"
+            >
+              <VideoCard
+                src="https://res.cloudinary.com/duf9ddqhl/video/upload/v1618446089/hex_map_slzu7b.webm"
+                href="https://github.com/jongrim/roll-with-me/blob/af58cf8445d370a2ca7a80b6b06f07c6ab309981/src/MapModule/HexGrid.tsx"
+                linkLabel="Heart game room"
+                description="For the Heart game, I created an SVG hex grid that can be used to map out the game. 
+                I love creating interactive elements, and the SVG grid includes features like zoom, pan, selecting 
+                a background picture for a hex, and saving notes about each space. Future expansions will allow 
+                the user to set the grid size and implement a drag and drop pan ability."
+                title="SVG Hex Grid"
+              />
+            </div>
+            <div
               id="visual-dice"
               className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 relative"
             >
@@ -114,11 +130,9 @@ export default function Home() {
                 src="/v1617997670/visual_dice_table_lyzpjz.png"
                 alt="Visual Dice Table"
                 href="https://rollwithme.xyz/i/industrial-shirt-men-origin-suggest-effect"
-                linkLabel="Roll With Me - visual dice table example"
-                description="The Visual Dice Table application mimics rolling dice at a table. 
-                It also enhances the experience for online play by providing additional 
-                features such as safety tools and game supporting items."
-                title="Roll With Me - Visual Dice Table"
+                linkLabel="visual dice table example"
+                description="The Visual Dice Table mimics rolling dice at a table by enabling users to drag and drop items that have been added to the table. The dice and other items are saved and synced to all connected users, so everyone sees the same thing and keeps up with the game!"
+                title="Visual Dice Table"
               />
             </div>
             <div
@@ -129,11 +143,13 @@ export default function Home() {
                 src="/v1617997670/text_dice_roller_rls764.png"
                 alt="Text Dice Roller"
                 href="https://rollwithme.xyz/r/easier-usual-material-pot-band-setting"
-                linkLabel="Roll With Me - text dice roller example"
-                description="The text dice roller is designed to support playing tabletop games online. 
-                Through a variety of tools, users can create, save, and roll dice and custom rolls quickly, 
-                while also enhancing their game with safety tools and other features."
-                title="Roll With Me - Text Dice Roller"
+                linkLabel="text dice roller example"
+                description="The Text Dice Roller is designed to be a fast and powerful way of rolling dice online. 
+                Users can create rolls using an intuitive form or an advanced text syntax, and the results will 
+                be saved and synced to the room. Other room features empower users to re-roll or review history items, 
+                save rolls and custom dice, and use safety tools to make the game the most fun for everyone. Thoughtful 
+                application of animations, such as the ticker-tape of recent rolls, enhance the product."
+                title="Text Dice Roller"
               />
             </div>
             <div
@@ -145,10 +161,10 @@ export default function Home() {
                 alt="Trophy Gold"
                 href="https://rollwithme.xyz/trophy-gold/trophy-gold-testing"
                 linkLabel="Trophy Gold game app"
-                description="The Trophy Gold game application is an example of a multiplayer game module. 
-                It brings together dice rolling, character sheets, safety tools, and other 
-                resources to allow players to play the game online with an improved experience."
-                title="Roll With Me - Trophy Gold"
+                description="The Trophy Gold game application brings together dice rolling, character sheets, safety tools, and other 
+                resources to allow players to play the game online with an improved experience. Features like rich text for notes,
+                 customized column layout, and popout dice mean the user can customize the experience to their liking."
+                title="Trophy Gold Game Application"
               />
             </div>
             <div
@@ -160,11 +176,24 @@ export default function Home() {
                 alt="UI via state machines"
                 href="https://docs.google.com/presentation/d/13fKUYN0dAufLSoW4bPazPfBM0WI1Nc-G7ulkrCcnVK0/edit?usp=sharing"
                 linkLabel="Pure UI via State Machines slides"
-                description="An introduction and discussion of how UI is a representation of
-                application state, and how state machines can help reduce bugs
-                and increase confidence"
+                description="A presentation introducing state machines and statecharts and their use in UI development. 
+                I find state machines to be an extremely promising technique and have used them very successfully at times 
+                — such as managing the complex game load animation for Trophy Gold!. I am actively learning more about them 
+                and how they can help tame complex interfaces."
                 title="Pure UI via State Machines"
               />
+            </div>
+            <div className="mx-auto my-32 relative flex flex-col items-center bg-mb-yellow py-8 px-12 pt-32">
+              <p className="font-body text-xl">My tools of choice</p>
+              <ul className="font-banner text-3xl">
+                <li className="py-3">React</li>
+                <li className="py-3">TypeScript / JavaScript</li>
+                <li className="py-3">GraphQL</li>
+                <li className="py-3">Chakra UI</li>
+                <li className="py-3">Tailwind CSS</li>
+                <li className="py-3">JAMStack</li>
+                <li className="py-3">VS Code</li>
+              </ul>
             </div>
           </section>
         </main>
