@@ -1,3 +1,10 @@
+@font-face {
+  font-family: Kickback;
+  src: url('../public/fonts/Kickback.ttf') format('truetype');
+  font-style: normal;
+  font-display: swap;
+}
+
 html,
 body {
   padding: 0;

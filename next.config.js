@@ -5,4 +5,7 @@ module.exports = {
     loader: 'cloudinary',
     path: 'https://res.cloudinary.com/duf9ddqhl/image/upload',
   },
+  future: {
+    webpack5: true,
+  },
 };

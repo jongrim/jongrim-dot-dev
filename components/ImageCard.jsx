@@ -10,23 +10,23 @@ export default function ImageCard({
   description,
 }) {
   return (
-    <div class="mx-auto px-4 pt-2 max-w-xl">
+    <div className="mx-auto px-4 pt-2 max-w-4xl">
       <a href={href} aria-label={linkLabel} target="_blank">
-        <div class="bg-white shadow-2xl rounded-lg mb-6 tracking-wide">
-          <div class="md:flex-shrink-0">
+        <div className="bg-white shadow-2xl rounded-lg mb-6 tracking-wide">
+          <div className="md:flex-shrink-0">
             <Image
               src={src}
               alt={alt}
-              class="w-full h-64 rounded-lg rounded-b-none"
+              className="w-full h-64 rounded-lg rounded-b-none"
               width={1200}
               height={800}
             />
           </div>
-          <div class="px-4 py-2 my-1">
-            <h2 class="font-bold text-2xl text-gray-800 tracking-normal">
+          <div className="px-4 py-2 my-1">
+            <h2 className="font-bold text-2xl text-gray-800 tracking-normal">
               {title}
             </h2>
-            <p class="text-sm text-gray-700 pr-2 mt-1">{description}</p>
+            <p className="text-sm text-gray-700 pr-2 mt-1">{description}</p>
           </div>
         </div>
       </a>

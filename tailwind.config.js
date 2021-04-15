@@ -6,6 +6,8 @@ module.exports = {
       backgroundColor: (theme) => ({
         ...theme,
         'dark-cyan': '#0F7282',
+        'mb-pink': '#FF3EB5',
+        'mb-yellow': '#FFE900',
       }),
       textColor: (theme) => ({
         ...theme,
@@ -15,6 +17,7 @@ module.exports = {
     fontFamily: {
       body: ['Montserrat', 'sans-serif'],
       banner: ['Oswald', 'sans-serif'],
+      display: ['Kickback', 'sans-serif'],
     },
   },
   variants: {

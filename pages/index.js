@@ -4,6 +4,7 @@ import BannerBack from '../components/BannerBack';
 import BannerFront from '../components/BannerFront';
 import Waves from '../components/Waves';
 import Fox from '../components/Fox';
+import ProjectsBack, { ProjectsDivider } from '../components/ProjectsBack';
 import ImageCard from '../components/ImageCard';
 import {
   RiGithubFill,
@@ -29,7 +30,7 @@ export default function Home() {
       scrollTrigger: {
         trigger: '#heart-bubble',
         start: 'top 60%',
-        end: 'top 550%',
+        end: 'top 50%',
         scrub: 1,
         once: true,
       },
@@ -61,18 +62,18 @@ export default function Home() {
           <div className="w-full absolute">
             <BannerBack />
           </div>
-          <div className="w-full pt-8 md:py-8 mx-4 sm:my-8 md:my-8 lg:my-12 xl:my-32 z-10 flex justify-center">
-            <div className="font-banner my-auto px-4 lg:px-8 py-3 lg:py-6 rounded-md bg-gray-50 shadow-lg flex items-center justify-between">
+          <div className="w-full pt-8 md:py-8 sm:my-8 md:my-8 lg:my-12 xl:my-32 z-10 flex justify-center">
+            <div className="font-banner mx-2 my-auto px-4 lg:px-8 py-3 lg:py-6 rounded-md bg-gray-50 shadow-lg flex items-center justify-between">
               <div>
-                <h1 className="text-3xl md:text-7xl lg:text-9xl">Jon Grim</h1>
-                <p className="text-xl md:text-4xl lg:text-5xl py-2">
+                <h1 className="text-5xl md:text-7xl lg:text-9xl">Jon Grim</h1>
+                <p className="text-3xl md:text-4xl lg:text-5xl pb-1">
                   Software Engineer
                 </p>
-                <p className="text-xl md:text-4xl lg:text-5xl text-blue-700 text-opacity-90">
+                <p className="text-2xl md:text-4xl lg:text-5xl text-blue-700 text-opacity-90">
                   not really that grim
                 </p>
               </div>
-              <div className="w-36 md:w-60 lg:w-96">
+              <div className="w-44 md:w-60 lg:w-96">
                 <BannerFront />
               </div>
             </div>
@@ -83,7 +84,7 @@ export default function Home() {
         </div>
         <main className="w-full bg-dark-cyan flex flex-1 flex-col items-center font-body">
           <section className="text-white text-xl max-w-3xl px-6">
-            <div className="grid grid-cols-1 md:grid-cols-2">
+            <div className="grid grid-cols-1 md:grid-cols-2 pt-48 pb-80">
               <div className="flex flex-col justify-center px-12 lg:px-2">
                 <p>
                   I am a <b className="text-3xl">builder</b> and a{' '}
@@ -99,9 +100,16 @@ export default function Home() {
               </div>
             </div>
           </section>
-          <div className="w-4/5 h-1 border-b-2 border-gray-50 border-opacity-60 my-4" />
-          <section className="relative w-full flex flex-wrap justify-around">
-            <div className="w-full md:w-1/2 xl:w-1/3 h-auto">
+          <div className="w-full transform rotate-180 relative -bottom-px">
+            <ProjectsDivider />
+          </div>
+          <section className="w-full bg-mb-yellow">
+            <ProjectsBack />
+            <div className="h-48" />
+            <div
+              id="visual-dice"
+              className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 relative"
+            >
               <ImageCard
                 src="/v1617997670/visual_dice_table_lyzpjz.png"
                 alt="Visual Dice Table"
@@ -113,7 +121,10 @@ export default function Home() {
                 title="Roll With Me - Visual Dice Table"
               />
             </div>
-            <div className="w-full md:w-1/2 xl:w-1/3 h-auto">
+            <div
+              id="text-dice"
+              className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 relative"
+            >
               <ImageCard
                 src="/v1617997670/text_dice_roller_rls764.png"
                 alt="Text Dice Roller"
@@ -125,7 +136,10 @@ export default function Home() {
                 title="Roll With Me - Text Dice Roller"
               />
             </div>
-            <div className="w-full md:w-1/2 xl:w-1/3 h-auto">
+            <div
+              id="trophy-gold"
+              className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 relative"
+            >
               <ImageCard
                 src="/v1617997670/trophy_gold_umllbh.png"
                 alt="Trophy Gold"
@@ -137,7 +151,10 @@ export default function Home() {
                 title="Roll With Me - Trophy Gold"
               />
             </div>
-            <div className="w-full md:w-1/2 xl:w-1/3 h-auto">
+            <div
+              id="pure-ui"
+              className="w-full md:w-2/3 lg:w-3/4 mx-auto my-32 relative"
+            >
               <ImageCard
                 src="/v1617938014/UI_state_machines_gxjdr7.png"
                 alt="UI via state machines"
@@ -151,7 +168,7 @@ export default function Home() {
             </div>
           </section>
         </main>
-        <footer className="w-full bg-dark-cyan flex flex-col justify-center text-white pt-6 pb-12">
+        <footer className="w-full bg-mb-yellow flex flex-col justify-center text-black pt-6 pb-12">
           <div className="flex justify-center">
             <div className="w-16 flex justify-center">
               <a
@@ -194,9 +211,9 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="flex justify-center mt-4 font-body">
+          <div className="flex justify-center mt-4 font-body text-black">
             <a
-              className="text-xs text-gray-50 italic"
+              className="text-xs italic"
               href="https://www.freepik.com/free-vector/cute-fox-operating-laptop-cartoon-illustration_12853811.htm#page=1&query=programmer%20fox&position=0"
             >
               Fox vector created by catalyststuff - www.freepik.com
