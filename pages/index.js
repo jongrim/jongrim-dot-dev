@@ -66,11 +66,11 @@ export default function Home() {
           <div className="w-full pt-8 md:py-8 sm:my-8 md:my-8 lg:my-12 xl:my-32 z-10 flex justify-center">
             <div className="font-banner mx-2 my-auto px-4 lg:px-8 py-3 lg:py-6 rounded-md bg-gray-50 shadow-lg flex items-center justify-between">
               <div>
-                <h1 className="text-5xl md:text-7xl lg:text-9xl">Jon Grim</h1>
-                <p className="text-3xl md:text-4xl lg:text-5xl pb-1">
+                <h1 className="text-4xl md:text-7xl lg:text-9xl">Jon Grim</h1>
+                <p className="text-2xl md:pb-1 md:text-4xl lg:text-5xl mt-2 md:mt-5 lg:mt-10">
                   Software Engineer
                 </p>
-                <p className="text-2xl md:text-4xl lg:text-5xl text-blue-700 text-opacity-90">
+                <p className="text-xl md:text-4xl lg:text-5xl text-blue-700 text-opacity-90">
                   not really that grim
                 </p>
               </div>
