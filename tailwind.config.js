@@ -1,27 +1,21 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    "./components/**/*.{js,vue,ts}",
+    "./layouts/**/*.vue",
+    "./pages/**/*.{js,vue,ts}",
+    "./plugins/**/*.{js,ts}",
+    "./nuxt.config.{js,ts}",
+    "./app.vue",
+    "./**.*",
+  ],
   theme: {
     extend: {
-      backgroundColor: (theme) => ({
-        ...theme,
-        'dark-cyan': '#0F7282',
-        'mb-pink': '#FF3EB5',
-        'mb-yellow': '#FFE900',
-      }),
-      textColor: (theme) => ({
-        ...theme,
-        'mb-pink': '#FF3EB5',
-      }),
+      fontFamily: {
+        Oswald: "Oswald, sans-serif",
+        OpenSans: "'Open Sans', sans-serif",
+      },
     },
-    fontFamily: {
-      body: ['Montserrat', 'sans-serif'],
-      banner: ['Oswald', 'sans-serif'],
-      display: ['Kickback', 'sans-serif'],
-    },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 };
