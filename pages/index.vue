@@ -24,7 +24,7 @@
   <img
     src="https://res.cloudinary.com/duf9ddqhl/image/upload/q_auto/co_white,l_text:arial_80:@bwilleyphotography/fl_layer_apply,g_south_east,y_20,x_20/v1669923283/31Heroes22-207_uad50t.jpg"
     alt="Carrying a sandbag in the 31 Heroes WOD"
-    class="md:h-full md:object-cover md:object-right md:absolute md:top-0 md:right-0 md:max-w-[45vw]"
+    class="md:h-full md:object-cover md:object-right md:fixed md:top-0 md:right-0 md:max-w-[45vw]"
   />
 </template>
 <script lang="ts" setup>

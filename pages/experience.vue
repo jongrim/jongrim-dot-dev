@@ -47,7 +47,8 @@
         <p class="text-lg font-Oswald mb-3">Proficiencies</p>
         <p>
           Functional programming, Object-oriented programming, CSS Grid,
-          Flexbox, Responsive design, Web accessibility, Testing
+          Flexbox, Responsive design, Web accessibility, Testing, Frontend
+          developer tooling
         </p>
       </div>
       <div>
@@ -57,8 +58,8 @@
       <div>
         <p class="text-lg font-Oswald mb-3">Libraries and Services</p>
         <p>
-          Redux, Vuex, Jest, Xstate, Cypress, Storybook, Ramda, Express,
-          Webpack, Vite, Stripe, AWS, Netlify, GitHub, Gitlab
+          Redux, Vuex, Jest, Xstate, Tailwind, Cypress, Storybook, Ramda,
+          Express, Webpack, Vite, Stripe, AWS, Netlify, GitHub, Gitlab
         </p>
       </div>
       <div>
