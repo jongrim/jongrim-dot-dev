@@ -47,7 +47,8 @@
         <p class="text-lg font-Oswald mb-3">Proficiencies</p>
         <p>
           Functional programming, Object-oriented programming, CSS Grid,
-          Flexbox, Responsive design, Web accessibility, Testing
+          Flexbox, Responsive design, Web accessibility, Testing, Frontend
+          developer tooling
         </p>
       </div>
       <div>
