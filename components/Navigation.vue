@@ -28,10 +28,10 @@
           <button @click="toggle()" class="ml-auto mr-3">
             <Icon icon="mdi:close-box-outline" color="#1e293b" width="36" />
           </button>
-          <NuxtLink to="/">Home</NuxtLink>
-          <NuxtLink to="/about">About</NuxtLink>
-          <NuxtLink to="/experience">Experience</NuxtLink>
-          <NuxtLink to="/projects">Projects</NuxtLink>
+          <NuxtLink @click="toggle()" to="/">Home</NuxtLink>
+          <NuxtLink @click="toggle()" to="/about">About</NuxtLink>
+          <NuxtLink @click="toggle()" to="/experience">Experience</NuxtLink>
+          <NuxtLink @click="toggle()" to="/projects">Projects</NuxtLink>
         </div>
       </transition>
     </template>
