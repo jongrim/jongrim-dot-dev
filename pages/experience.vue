@@ -2,7 +2,7 @@
   <NuxtLayout>
     <section id="summary">
       <h2 class="font-Oswald mb-12 text-lg text-slate-500">Summary</h2>
-      <p class="text-lg font-OpenSans leading-relaxed">
+      <p class="text-lg leading-relaxed">
         I have built my career by being able to bridge business needs and
         engineering excellence. My experience has ranged from client facing
         positions to dedicated engineering, and I have consitently helped

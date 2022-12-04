@@ -9,9 +9,12 @@ export default defineNuxtConfig({
         {
           name: "description",
           content:
-            "Professional site of Jonathan Grim - software engineer and leader",
+            "Professional site of Jonathan Grim - software engineer, athlete, and adventurer",
         },
-        { name: "keywords", content: "Jon Grim, Jonathan Grim" },
+        {
+          name: "keywords",
+          content: "Jon Grim, Jonathan Grim, software engineer",
+        },
       ],
     },
   },
