@@ -5,7 +5,7 @@
       <p class="text-lg leading-relaxed">
         I have built my career by being able to bridge business needs and
         engineering excellence. My experience has ranged from client facing
-        positions to dedicated engineering, and I have consitently helped
+        positions to dedicated engineering, and I have consistently helped
         businesses achieve their goals by focusing on delivering value in a
         sustainable fashion. My passion is developing rich user experiences, and
         I enjoy iterating quickly to get feedback and solve real user
@@ -39,7 +39,16 @@
       </h2>
       <div>
         <p class="text-lg font-Oswald mb-3">Languages</p>
-        <p>JavaScript, TypeScript, Python (familiar), SQL (familiar)</p>
+        <p>
+          JavaScript, TypeScript, HTML, CSS, Python (familiar), SQL (familiar)
+        </p>
+      </div>
+      <div>
+        <p class="text-lg font-Oswald mb-3">Proficiencies</p>
+        <p>
+          Functional programming, Object-oriented programming, CSS Grid,
+          Flexbox, Responsive design, Web accessibility, Testing
+        </p>
       </div>
       <div>
         <p class="text-lg font-Oswald mb-3">Frameworks and Runtimes</p>
@@ -48,8 +57,8 @@
       <div>
         <p class="text-lg font-Oswald mb-3">Libraries and Services</p>
         <p>
-          Redux, Vuex, Jest, Xstate, Webpack, Vite, Stripe, AWS, Netlify,
-          GitHub, Gitlab
+          Redux, Vuex, Jest, Xstate, Cypress, Storybook, Ramda, Express,
+          Webpack, Vite, Stripe, AWS, Netlify, GitHub, Gitlab
         </p>
       </div>
       <div>
