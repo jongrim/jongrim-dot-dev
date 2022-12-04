@@ -13,7 +13,6 @@ module.exports = {
     extend: {
       fontFamily: {
         Oswald: "Oswald, sans-serif",
-        OpenSans: "'Open Sans', sans-serif",
         Lato: "Lato, sans-serif",
       },
     },
