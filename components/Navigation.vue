@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex flex-wrap items-center gap-8 font-OpenSans">
+  <nav class="flex flex-wrap items-center gap-8">
     <template v-if="smAndLarger">
       <NuxtLink to="/">
         <img src="/favicon.png" height="100%" class="h-12 w-12" alt="Home" />

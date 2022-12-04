@@ -1,6 +1,6 @@
 <template>
   <NuxtLayout>
-    <section class="h-full font-OpenSans text-xl leading-relaxed pb-24">
+    <section class="h-full text-xl leading-relaxed pb-24">
       <p class="text-6xl font-Oswald mb-6">Hi, I'm Jon 👋</p>
       <img
         src="https://res.cloudinary.com/duf9ddqhl/image/upload/q_auto:best,ar_16:9,c_fill/v1669997657/cruise_aewcta.jpg"
@@ -75,7 +75,7 @@
         >. My philosphy on work is that it is part of the equation to a happy
         life. Enjoying your work, at least most of the time, is important, and I
         care about working for companies that I feel align with my social views
-        and that truly care about their people. Outisde of work though, I want
+        and that truly care about their people. Outside of work though, I want
         to see more, taste more, and sweat more. When I'm doing those things,
         I'm happy.
       </p>

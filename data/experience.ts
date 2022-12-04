@@ -27,7 +27,7 @@ const experience: ExperienceSection[] = [
     timeSpan: "October 2017 - March 2019, February 2020 - June 2021",
     highlights: [
       "Developed a web SaaS product to analyze phone call audio using React, TypeScript, Redux, and Node",
-      "Identified a team need for more visibility to our deployments and built a React and TypeScript tool to pull deployment info from GitHub using GraphQL, and deployed it using AWS Amplify. ",
+      "Identified a team need for more visibility into our deployments and built a React and TypeScript tool deployed on AWS Amplify to pull deployment info from GitHub using their GraphQL API",
       "Collaborated with Design to build a foundational Design System to increase code reuse and improve consistency across pages",
     ],
   },
