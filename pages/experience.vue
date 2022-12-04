@@ -57,8 +57,8 @@
       <div>
         <p class="text-lg font-Oswald mb-3">Libraries and Services</p>
         <p>
-          Redux, Vuex, Jest, Xstate, Cypress, Storybook, Ramda, Express,
-          Webpack, Vite, Stripe, AWS, Netlify, GitHub, Gitlab
+          Redux, Vuex, Jest, Xstate, Tailwind, Cypress, Storybook, Ramda,
+          Express, Webpack, Vite, Stripe, AWS, Netlify, GitHub, Gitlab
         </p>
       </div>
       <div>
