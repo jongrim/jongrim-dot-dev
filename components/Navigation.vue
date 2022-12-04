@@ -5,7 +5,7 @@
         <img src="/favicon.png" height="100%" class="h-12 w-12" alt="Home" />
       </NuxtLink>
       <NuxtLink to="/about">About</NuxtLink>
-      <a download href="/Grim-Resume.pdf">Experience</a>
+      <NuxtLink to="/experience">Experience</NuxtLink>
       <NuxtLink to="/projects">Projects</NuxtLink>
     </template>
     <template v-else>
@@ -30,7 +30,7 @@
           </button>
           <NuxtLink to="/">Home</NuxtLink>
           <NuxtLink to="/about">About</NuxtLink>
-          <a download href="/Grim-Resume.pdf">Experience</a>
+          <NuxtLink to="/experience">Experience</NuxtLink>
           <NuxtLink to="/projects">Projects</NuxtLink>
         </div>
       </transition>

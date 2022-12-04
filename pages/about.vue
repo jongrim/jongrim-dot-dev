@@ -68,18 +68,16 @@
         US vs England - She Believes Cup, 2018
       </p>
       <p class="mt-12">
-        This is just a bit about me, and it's intentionally light on work and
-        career details (check out
-        <a
-          class="text-blue-700 underline"
-          href="https://www.linkedin.com/in/jonathangrim/"
-          target="blank"
-          >my LinkedIn</a
-        >
-        if you want to see that). I enjoy work, and having a job that is
-        fulfilling is important, but I care more about having a fulfilling life
-        overall — work is only part of the equation. I want to see more, taste
-        more, sweat more. When I'm doing those things, I'm happy.
+        This is just a bit about me. If you were hoping to learn about my work
+        experience, check out
+        <NuxtLink class="text-blue-700 underline" to="/experience"
+          >the experience page</NuxtLink
+        >. My philosphy on work is that it is part of the equation to a happy
+        life. Enjoying your work, at least most of the time, is important, and I
+        care about working for companies that I feel align with my social views
+        and that truly care about their people. Outisde of work though, I want
+        to see more, taste more, and sweat more. When I'm doing those things,
+        I'm happy.
       </p>
       <p class="text-center mt-6 text-4xl">❤️</p>
       <p class="mt-12 text-sm italic">
