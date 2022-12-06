@@ -46,7 +46,7 @@ const experience: ExperienceSection[] = [
     company: "KPMG",
     timeSpan: "January 2014 - April 2017",
     highlights: [
-      "Conducted requirements analysis and drafted implementation plans for large-scale transformation projects to introduce Priveleged Access Management solutions to enterprise environments",
+      "Conducted requirements analysis and drafted implementation plans for large-scale transformation projects to introduce Privileged Access Management solutions to enterprise environments",
       "Developed scripts to automate working with large spreadsheets using Python",
       "Executed security assessments to determine compliance with standards such as NIST and HIPAA",
       "Prepared client facing project deliverables and led stakeholder conversations and workshops",
