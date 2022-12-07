@@ -73,8 +73,8 @@
     <hr class="my-12" />
     <section class="my-12 flex flex-col">
       <h2 class="font-Oswald text-slate-500 text-lg mb-12">Links</h2>
-      <a download href="/Grim-Resume.pdf" class="text-blue-700 underline mb-3"
-        >Download my résumé</a
+      <a download href="/Grim-CV.pdf" class="text-blue-700 underline mb-3"
+        >Download my CV</a
       >
       <a href="https://github.com/jongrim" class="text-blue-700 underline mb-3">
         GitHub
