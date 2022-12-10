@@ -10,11 +10,21 @@ export interface Project {
 
 const projects: Project[] = [
   {
+    title: "jongrim.dev",
+    description:
+      "<p>This site! It's modest and to the point, sort of like me. When I planned out building this site I wanted to optimize for ease-of-use and load speeds, so I chose Nuxt.js to get fast loading times with pre-generated pages and Cloudinary for transforming and serving quality images. I also opted to go with a straightforward design that prioritized legibility and readability of text, while making images and colors pop.</p>",
+    image:
+      "https://res.cloudinary.com/duf9ddqhl/image/upload/q_auto/v1670644340/jongrim-dot-dev_gzq6lz.jpg",
+    tech: ["Nuxt 3", "TypeScript", "Cloudinary", "Netlify"],
+    link: "https://jongrim.dev",
+    github: "https://github.com/jongrim/jongrim-dot-dev",
+  },
+  {
     title: "Playabl",
     description:
       "<p>Playabl is a modern community and event management system built for the roleplaying hobby. Building it has been a great joy and given me the chance to expand my skillset by diving into serverless and backend areas that I typically don't get the chance to use on the job.</p><p class='mt-4'>The app includes a variety of features including messaging, email notifications, and even a partner Slack application. It is currently in Beta as I work with some early adopters to identify key requirements and find market fit.</p>",
     image:
-      "https://res.cloudinary.com/duf9ddqhl/image/upload/v1669952748/combined-preview_kkisgz.jpg",
+      "https://res.cloudinary.com/duf9ddqhl/image/upload/q_auto/v1669952748/combined-preview_kkisgz.jpg",
     tech: [
       "Vue 3",
       "TypeScript",
