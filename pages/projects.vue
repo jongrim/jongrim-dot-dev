@@ -2,7 +2,7 @@
   <NuxtLayout>
     <div class="grid gap-12 pb-24">
       <Project
-        v-for="(project, index) in projects"
+        v-for="project in projects"
         :key="project.title"
         :project="project"
       />

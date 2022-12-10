@@ -3,7 +3,7 @@
     <section class="h-full text-xl leading-relaxed pb-24">
       <p class="text-6xl font-Oswald mb-6">Hi, I'm Jon 👋</p>
       <img
-        src="https://res.cloudinary.com/duf9ddqhl/image/upload/q_auto:best,ar_16:9,c_fill/v1669997657/cruise_aewcta.jpg"
+        src="https://res.cloudinary.com/duf9ddqhl/image/upload/q_auto,ar_16:9,c_fill/v1669997657/cruise_aewcta.jpg"
         alt="On cruise in Bahamas"
         class="max-h-[75vh] w-full object-cover mt-8"
       />
@@ -25,7 +25,7 @@
         shopping for clothes and shoes as well.
       </p>
       <img
-        src="https://res.cloudinary.com/duf9ddqhl/image/upload/q_auto:best,ar_16:9,c_fill/v1669997407/diamond-head-crater_dncrdr.jpg"
+        src="https://res.cloudinary.com/duf9ddqhl/image/upload/q_auto,ar_16:9,c_fill/v1669997407/diamond-head-crater_dncrdr.jpg"
         alt="Diamond Head crater from the sky"
         class="max-h-[75vh] w-full object-cover mt-8"
       />
@@ -48,8 +48,8 @@
           class="max-h-[75vh] object-contain"
         />
         <img
-          src="https://res.cloudinary.com/duf9ddqhl/image/upload/v1670000147/squats_cqlrv1.jpg"
-          alt="Rope climb"
+          src="https://res.cloudinary.com/duf9ddqhl/image/upload/q_auto/v1670000147/squats_cqlrv1.jpg"
+          alt="Goblet squats"
           class="max-h-[75vh] object-contain"
         />
       </div>
@@ -84,7 +84,7 @@
         Oops, almost forgot the obligatory photo of cats - enjoy!
       </p>
       <img
-        src="https://res.cloudinary.com/duf9ddqhl/image/upload/q_auto:best,ar_16:9,c_fill/v1669997406/cat-pile_w52jon.jpg"
+        src="https://res.cloudinary.com/duf9ddqhl/image/upload/q_auto,ar_16:9,c_fill/v1669997406/cat-pile_w52jon.jpg"
         alt="Pile of kittens"
         class="max-h-[75vh] w-full object-cover mt-8"
       />
