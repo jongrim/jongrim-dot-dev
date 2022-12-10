@@ -1,6 +1,6 @@
 <template>
   <section class="h-full flex flex-col px-8 md:max-w-[50vw]">
-    <div class="grow flex flex-col justify-center font-Oswald py-16">
+    <div class="grow flex flex-col justify-center font-Oswald pt-16 pb-4">
       <p class="text-6xl lg:text-9xl">Jonathan Grim</p>
       <div class="flex flex-col gap-8 mt-12">
         <p class="text-2xl md:text-3xl">Software engineer</p>
