@@ -40,16 +40,8 @@
   </section>
 </template>
 <script lang="ts" setup>
-import type { PropType } from "vue";
 import type { Project } from "../data/projects";
-defineProps({
-  project: {
-    type: Object as PropType<Project>,
-    required: true,
-  },
-  leftAligned: {
-    type: Boolean,
-    default: true,
-  },
-});
+defineProps<{
+  project: Project;
+}>();
 </script>
