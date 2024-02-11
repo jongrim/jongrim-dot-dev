@@ -40,10 +40,9 @@
   </section>
 </template>
 <script lang="ts" setup>
-import { PropType, computed, ref } from "vue";
-import { Icon } from "@iconify/vue";
-import { Project } from "../data/projects";
-const props = defineProps({
+import type { PropType } from "vue";
+import type { Project } from "../data/projects";
+defineProps({
   project: {
     type: Object as PropType<Project>,
     required: true,
