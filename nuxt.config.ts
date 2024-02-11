@@ -30,6 +30,7 @@ export default defineNuxtConfig({
     [
       "@nuxtjs/google-fonts",
       {
+        download: false,
         prefetch: true,
         families: {
           Oswald: [400, 600],
