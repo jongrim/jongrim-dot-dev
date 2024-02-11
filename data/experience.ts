@@ -7,9 +7,19 @@ interface ExperienceSection {
 
 const experience: ExperienceSection[] = [
   {
+    title: "Senior Software Engineer",
+    company: "Booking.com",
+    timeSpan: "May 2023 - Present",
+    highlights: [
+      "Developed features for Booking.com's Customer Marketing platform to plan and launch marketing campaigns",
+      "Led an initiative to enhance software quality through technical and process improvements",
+      "Productionized and scaled services for building and rendering marketing content at a scale of millions",
+    ],
+  },
+  {
     title: "Team Lead II",
     company: "Olo",
-    timeSpan: "June 2021 - Present",
+    timeSpan: "June 2021 - April 2023",
     highlights: [
       "Led the Host team in developing a suite of restaurant applications and their supporting services across mobile and web",
       "Led the Handheld team in developing a new Android product for the market",

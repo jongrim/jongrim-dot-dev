@@ -29,4 +29,7 @@
 </template>
 <script lang="ts" setup>
 import { Icon } from "@iconify/vue";
+definePageMeta({
+  layout: "home",
+});
 </script>
